@@ -25,7 +25,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: thetips4you/testjodejsapp
+          images: walid123321/java_app_12
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
