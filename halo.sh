@@ -1,1 +1,1 @@
-print("ksk")
+print("oka")
