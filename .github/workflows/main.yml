@@ -43,9 +43,9 @@ jobs:
           push: true
           tags: |
             ${{ steps.meta.outputs.tags }}
-            thetips4you/testjodejsapp:${{ env.TAG }}
-            thetips4you/testjodejsapp:${{ env.TAG }}-${{ env.SHORT_SHA }}
-            thetips4you/testjodejsapp:latest
+            walid123321/java_app_12:${{ env.TAG }}
+            walid123321/java_app_12:${{ env.TAG }}-${{ env.SHORT_SHA }}
+            walid123321/java_app_12:latest
           labels: ${{ steps.meta.outputs.labels }}
       
       - name: Verify Docker Hub login
